@@ -1,7 +1,3 @@
-# tabular_research
-
-Implementation of the paper "Tabular Synthesis Reinvention: LLM Capabilities for Creating Realistic Multidimensional Distributions"
-
 ## Overview
 
 This repository provides tools for generating synthetic tabular data, automating experiments, evaluating synthetic data quality, and optimizing hyperparameters. Both classical and modern deep learning/LLM approaches are supported.
