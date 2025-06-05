@@ -20,7 +20,7 @@ This repository provides tools for generating synthetic tabular data, automating
 ### 1. Clone the repository
 
 ```bash
-git clone [<repository_url>](https://github.com/Samp0rt/tabular_research.git)
+git clone https://github.com/Samp0rt/tabular_research.git
 cd tabular_research
 ```
 
