@@ -1,0 +1,2 @@
+
+[('age', 'target'), ('sex', 'target'), ('bmi', 'target'), ('bp', 'target'), ('s1', 'target'), ('s2', 'target'), ('s3', 'target'), ('s4', 'target'), ('s5', 'target'), ('s6', 'target')]
