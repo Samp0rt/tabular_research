@@ -1,3 +1,7 @@
+# tabular_research
+
+Implementation of the paper "Size Matters: Scaling Laws and Emergent Capabilities in LLM-Based Tabular Synthesis"
+
 ## Overview
 
 This repository provides tools for generating synthetic tabular data, automating experiments, evaluating synthetic data quality, and optimizing hyperparameters. Both classical and modern deep learning/LLM approaches are supported.
