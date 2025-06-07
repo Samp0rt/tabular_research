@@ -1,0 +1,45 @@
+Unnamed: 0,min,max,mean,stddev,direction
+sanity.data_mismatch.score,0.0,0.0,0.0,0.0,minimize
+sanity.common_rows_proportion.score,0.0,0.0,0.0,0.0,minimize
+sanity.nearest_syn_neighbor_distance.mean,0.1381723221439102,0.1697743846364664,0.157955324175376,0.0128479508011067,minimize
+sanity.close_values_probability.score,0.7,0.85,0.768,0.0544977063737548,maximize
+sanity.distant_values_probability.score,0.01,0.02,0.014,0.0054772255750516,minimize
+stats.jensenshannon_dist.marginal,0.002939790135795,0.0049233086571872,0.0038998149163565,0.0009181598006121,minimize
+stats.chi_squared_test.marginal,0.7992118743994395,0.9998767315566622,0.8797040802014215,0.1096290874932224,maximize
+stats.inv_kl_divergence.marginal,0.9096833477024802,0.992305467853378,0.9453345961567744,0.0414710889983327,maximize
+stats.ks_test.marginal,0.932,0.966,0.9572,0.0143248036635759,maximize
+stats.max_mean_discrepancy.joint,0.0149893819465722,0.0187991975033007,0.0167244471641305,0.0013586547927858,minimize
+stats.wasserstein_dist.joint,0.0011072752157334,0.0046583597074389,0.0025577115014411,0.0014308586972123,minimize
+stats.alpha_precision.delta_precision_alpha_OC,0.8616091954022989,0.9417471264367816,0.916271264367816,0.0319060228249921,maximize
+stats.alpha_precision.delta_coverage_beta_OC,0.4713333333333334,0.5846666666666667,0.5217195402298851,0.0462441732179579,maximize
+stats.alpha_precision.authenticity_OC,0.39,0.56,0.5,0.0659545297913646,maximize
+stats.alpha_precision.delta_precision_alpha_naive,0.9569425287356322,0.9711724137931036,0.9633149425287356,0.0068495602118519,maximize
+stats.alpha_precision.delta_coverage_beta_naive,0.3966666666666666,0.5206666666666666,0.4389333333333332,0.0504195729189898,maximize
+stats.alpha_precision.authenticity_naive,0.42,0.64,0.5279999999999999,0.0798122797569396,maximize
+stats.prdc.precision,0.95,0.98,0.958,0.0130384048104053,maximize
+stats.prdc.recall,0.95,1.0,0.98,0.0234520787991171,maximize
+stats.prdc.density,0.902,1.0,0.9576,0.0368619044543279,maximize
+stats.prdc.coverage,0.97,1.0,0.988,0.0130384048104053,maximize
+performance.linear_model.gt,1.0,1.0,1.0,0.0,maximize
+performance.linear_model.syn_id,1.0,1.0,1.0,0.0,maximize
+performance.linear_model.syn_ood,1.0,1.0,1.0,0.0,maximize
+performance.mlp.gt,0.459326171875,0.459326171875,0.459326171875,0.0,maximize
+performance.mlp.syn_id,0.45966796875,0.504931640625,0.482919921875,0.0163514958365257,maximize
+performance.mlp.syn_ood,0.45296875,0.4828125,0.4684999999999999,0.0113872916075882,maximize
+performance.xgb.gt,0.9935625,0.9935625,0.9935625,0.0,maximize
+performance.xgb.syn_id,0.99531640625,1.0,0.9988515625,0.0019905304842897,maximize
+performance.xgb.syn_ood,0.9948125,1.0,0.998575,0.0021534855467358,maximize
+performance.feat_rank_distance.corr,0.6511187978918772,0.8340307335357307,0.7324976315066996,0.0761714113364054,minimize
+performance.feat_rank_distance.pvalue,3.1462458736136533e-58,1.7118656438037178e-36,3.4331465262336035e-37,7.650459770160697e-37,minimize
+detection.detection_xgb.mean,0.39,0.523,0.48925,0.0557813813023664,minimize
+detection.detection_mlp.mean,0.5035000000000001,0.5562499999999999,0.53045,0.0253496794851532,minimize
+detection.detection_gmm.mean,0.485,0.52475,0.4999499999999999,0.0205399001944994,minimize
+detection.detection_linear.mean,0.289,0.379,0.3477,0.037191396854649,minimize
+privacy.delta-presence.score,1.1111111098765432,1.2499999984375,1.1579365063975025,0.0532692831001294,maximize
+privacy.k-anonymization.gt,8.0,8.0,8.0,0.0,maximize
+privacy.k-anonymization.syn,6.00000001,8.00000001,7.200000009999999,0.836660026534076,maximize
+privacy.k-map.score,7.0,8.0,7.4,0.5477225575051662,maximize
+privacy.distinct l-diversity.gt,8.0,8.0,8.0,0.0,maximize
+privacy.distinct l-diversity.syn,6.00000001,8.00000001,7.200000009999999,0.836660026534076,maximize
+privacy.identifiability_score.score,0.4,0.51,0.456,0.0482700735445886,minimize
+privacy.identifiability_score.score_OC,0.51,0.59,0.54,0.0316227766016837,minimize
